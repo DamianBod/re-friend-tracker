@@ -366,7 +366,7 @@ export class GuiModel {
                             "name": "EditLocation",
                             "color": "green",
                             "search": true,
-                            "url": "/location/:locationkey",
+                            "url": "/location",
                             "form": {
                                 "form": "LocationForm"
                             }
@@ -421,7 +421,7 @@ export class GuiModel {
                             "name": "EditActivity",
                             "color": "green",
                             "search": true,
-                            "url": "/activity/:activitykey",
+                            "url": "/activity",
                             "form": {
                                 "form": "ActivityForm"
                             }
